@@ -1,0 +1,5 @@
+Dataset Link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+GitHub Repository Link: https://github.com/MethmiNPCS/ML-Project.git
+
+YouTube Presentation Link:
