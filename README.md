@@ -124,7 +124,7 @@ The model enables:
 ## 🔍 Team Members' Components 
 
 ### (KNN):
-✅ K=29 සමඟින් 78.11% accuracy  
+✅ K=29 of 78.11% accuracy  
 ✅ Instance-based learning  
 ✅ Distance metric: Euclidean  
 ✅ Feature scaling අත්‍යවශ්‍ය  
@@ -173,7 +173,7 @@ The model enables:
 
 ## 💡 (Important Notes)
 
-### ඔබේ Model වලංගු බව:
+### Model validation:
 ✅ සැබෑ dataset එක භාවිතා කරයි (Telco Churn)  
 ✅ Proper preprocessing applied (feature scaling)  
 ✅ Hyperparameter tuning performed (K selection)  
@@ -181,7 +181,7 @@ The model enables:
 ✅ Business recommendations ලබා දේ  
 ✅ සියලුම required files සාදා ඇත  
 
-### Report එකේ ඇතුලත් කළ යුතු comparison:
+### Report comparison:
 | Algorithm | Accuracy | Precision | Recall | F1-Score |
 |-----------|----------|-----------|--------|----------|
 | **KNN** | 78.11% | 0.5902 | 0.5775 | 0.5838 |
@@ -191,7 +191,7 @@ The model enables:
 
 ---
 
-## 🎓 ඉගෙන ගත් දේ (What You Demonstrated)
+## 🎓 (What You Demonstrated)
 
 ### Technical Skills:
 - ✅ KNN algorithm implementation
@@ -209,7 +209,7 @@ The model enables:
 
 ---
 
-## 📞 උදව් අවශ්‍ය නම් (If You Need Help)
+## 📞 (If You Need Help)
 
 ### Common Issues:
 
@@ -233,9 +233,9 @@ source venv/bin/activate && python train_knn_model.py
 
 ---
 
-## 🏆 අවසාන සාරාංශය (Final Summary)
+## 🏆  (Final Summary)
 
-### ඔබ සාර්ථකව completed කරන ලදී:
+### completed successfully:
 1. ✅ Telco customer churn dataset analysis
 2. ✅ KNN algorithm implementation with optimal K=29
 3. ✅ Model training achieving 78.11% accuracy
@@ -244,7 +244,7 @@ source venv/bin/activate && python train_knn_model.py
 6. ✅ Comprehensive visualizations (4 charts)
 7. ✅ Complete documentation
 
-### ඊළඟ පියවර (Next Steps):
+### (Next Steps):
 1. Update GitHub repository with all files
 2. Add detailed commit messages
 3. Record your 4-minute presentation
