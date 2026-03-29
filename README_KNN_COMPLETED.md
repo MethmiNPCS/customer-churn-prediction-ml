@@ -1,30 +1,30 @@
 # KNN Model Implementation - Customer Churn Prediction
 
-## ✅ ඔබේ KNN Model සාර්ථකව Train කරන ලදී!
+## ✅  KNN Model train
 
 ---
 
-## 📁 සාදන ලද ගොනු (Generated Files)
+## 📁 (Generated Files)
 
 ### 1. **Source Code**
-- `train_knn_model.py` - Python script එකෙන් සම්පූර්ණ KNN model training code
-- `notebooks/knn_model.ipynb` - Jupyter notebook version (executed කළ හැක)
+- `train_knn_model.py` - Python script  KNN model training code
+- `notebooks/knn_model.ipynb` - Jupyter notebook version (can executed)
 
-### 2. **Visualizations** (සිතියම්/ප්‍රස්තාර)
+### 2. **Visualizations** 
 - `notebooks/knn_accuracy_plot.png` - K value optimization graph
 - `notebooks/knn_confusion_matrix.png` - Confusion matrix heatmap
 - `notebooks/knn_risk_distribution.png` - Risk level distribution chart  
 - `notebooks/knn_cv_scores.png` - Cross-validation results
 
-### 3. **Results** (ප්‍රතිඵල)
-- `dataset/knn_predictions.csv` - සියලුම පුරෝකථන (1,407 customers)
-- `KNN_MODEL_SUMMARY.md` - සම්පූර්ණ විස්තරය
+### 3. **Results** (results)
+- `dataset/knn_predictions.csv`  (1,407 customers)
+- `KNN_MODEL_SUMMARY.md` 
 
 ---
 
-## 🎯 Model Performance (මෙහි ප්‍රධාන ප්‍රතිඵල)
+## 🎯 Model Performance 
 
-### ප්‍රධාන සංඛ්‍යාලේඛන:
+### main:
 - **Optimal K Value**: 29 neighbors
 - **Test Accuracy**: 78.11%
 - **Cross-Validation Accuracy**: 78.74% (+/- 2.68%)
@@ -47,9 +47,9 @@ Actual No Churn    883      150
 
 ---
 
-## 🚀 නැවත Run කරගන්නා ආකාරය (How to Run Again)
+## 🚀 (How to Run Again)
 
-### අවශ්‍ය packages install කරගැනීම:
+### Necessary packages install :
 ```bash
 cd /Users/maleesharashani/Downloads/KNN_ML_Model/customer-churn-prediction-ml
 python3 -m venv venv
@@ -57,7 +57,7 @@ source venv/bin/activate
 pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
-### Model training run කිරීම:
+### Model training run :
 ```bash
 source venv/bin/activate
 python train_knn_model.py
@@ -69,32 +69,31 @@ python train_knn_model.py
 
 ## 📊 ඔබේ Presentation එකට කරුණු (For Your 4-Minute Presentation)
 
-### විනාඩි 1: Problem & Algorithm
-- Telecom සමාගම් වලට පාරිභෝගිකයින් අහිමි වීමෙන් මුදල් අහිමි වේ
-- KNN algorithm එක භාවිතා කරන්නේ සමාන පාරිභෝගිකයින් සොයාගැනීමට
-- Instance-based learning ක්‍රමවේදයක්
+### Minute 1: Problem & Algorithm
+- Telecom companies lose revenue due to customer churn.
+- The KNN algorithm is used to find similar customers.
+- It is an instance-based learning method.
 
-### විනාඩි 2: Methodology
-- K values 30ක් (1-30) පරීක්ෂා කරන ලදී
-- හොඳම K=29 සොයාගත් අතර 78.11% accuracy ලැබුණි
-- 5-fold cross-validation මගින් සත්‍යාපනය කරන ලදී
+### Minute 2: Methodology
+- 30 K values (from 1 to 30) were tested.
+- The best value, K = 29, was identified, achieving 78.11% accuracy.
+- The model was validated using 5-fold cross-validation.
 
-### විනාඩි 3: Results & Business Value
-- 78% accuracy සහිතව churn පුරෝකථනය කළ හැක
-- පාරිභෝගිකයින් Low/Medium/High risk ලෙස වර්ගීකරණය
-- එක් එක් කාණ්ඩ සඳහා ක්‍රියාමාර්ග යෝජනා:
-  - High Risk: වට්ටම් හෝ loyalty programs
+### Minute 3: Results & Business Value
+- Customer churn can be predicted with 78% accuracy.
+- Customers are classified into Low, Medium, and High-risk categories.
+- Recommended actions for each category:
+  - High Risk: Provide discounts or loyalty programs.
   - Medium Risk: promotional packages
-  - Low Risk: current service maintain කිරීම
+  - Low Risk: Maintain the current service.
 
-### විනාඩි 4: Comparison & Conclusion
-- KNN vs Logistic Regression vs Decision Tree vs Random Forest
-- KNN හි වාසි: සරල, තේරුම් ගැනීමට පහසු
-- KNN හි අවාසි: computational cost වැඩි
-
+### Minute 4: Comparison & Conclusion
+- Comparison of KNN with Logistic Regression, Decision Tree, and Random Forest models.
+- Advantages of KNN: Simple and easy to understand.
+- Disadvantages of KNN: High computational cost.
 ---
 
-## 📝 Report එකට ඇතුලත් කළ යුතු කරුණු
+## 📝 Report 
 
 ### 1. Algorithm Description
 K-Nearest Neighbors (KNN) is an instance-based supervised learning algorithm that:
@@ -122,15 +121,15 @@ The model enables:
 
 ---
 
-## 🔍 Team Members' Components සමඟ සංසන්දනය
+## 🔍 Team Members' Components 
 
-### ඔබේ කොටස (KNN):
+### (KNN):
 ✅ K=29 සමඟින් 78.11% accuracy  
 ✅ Instance-based learning  
 ✅ Distance metric: Euclidean  
 ✅ Feature scaling අත්‍යවශ්‍ය  
 
-### අනෙක් කොටස්:
+### other parts:
 1. **Logistic Regression** (already done)
    - Linear decision boundary
    - ~79% accuracy expected
@@ -147,7 +146,7 @@ The model enables:
 
 ## 📋 Submission Checklist
 
-### GitHub Repository එකට දාන්න:
+### GitHub Repository :
 - [x] `train_knn_model.py` - Training script
 - [x] `notebooks/knn_model.ipynb` - Jupyter notebook
 - [x] `notebooks/*.png` - Visualizations (4 files)
@@ -156,7 +155,7 @@ The model enables:
 - [ ] Commit history with detailed messages
 - [ ] Update README if needed
 
-### Report එකට:
+### Report :
 - [x] KNN algorithm description
 - [x] Methodology (K selection, feature scaling)
 - [x] Results (accuracy, precision, recall, F1)
@@ -172,7 +171,7 @@ The model enables:
 
 ---
 
-## 💡 වැදගත් කරුණු (Important Notes)
+## 💡 (Important Notes)
 
 ### ඔබේ Model වලංගු බව:
 ✅ සැබෑ dataset එක භාවිතා කරයි (Telco Churn)  
