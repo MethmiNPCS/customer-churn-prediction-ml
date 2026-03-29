@@ -67,7 +67,7 @@ python train_knn_model.py
 
 ---
 
-## 📊 ඔබේ Presentation එකට කරුණු (For Your 4-Minute Presentation)
+## 📊 (For Your 4-Minute Presentation)
 
 ### Minute 1: Problem & Algorithm
 - Telecom companies lose revenue due to customer churn.
@@ -174,12 +174,12 @@ The model enables:
 ## 💡 (Important Notes)
 
 ### Model validation:
-✅ සැබෑ dataset එක භාවිතා කරයි (Telco Churn)  
-✅ Proper preprocessing applied (feature scaling)  
-✅ Hyperparameter tuning performed (K selection)  
-✅ Cross-validation සමඟින් validate කරන ලදී  
-✅ Business recommendations ලබා දේ  
-✅ සියලුම required files සාදා ඇත  
+✅ A real dataset was used (Telco Churn).
+✅ Proper preprocessing was applied (feature scaling).
+✅ Hyperparameter tuning was performed (K value selection).
+✅ The model was validated using cross-validation.
+✅ Business recommendations were provided.
+✅ All required files were created.
 
 ### Report comparison:
 | Algorithm | Accuracy | Precision | Recall | F1-Score |
