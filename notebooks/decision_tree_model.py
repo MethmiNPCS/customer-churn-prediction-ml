@@ -13,6 +13,7 @@ from sklearn.metrics import (
     roc_auc_score, roc_curve, ConfusionMatrixDisplay
 )
 import os
+import joblib
 
 # Set output directory for plots (works in both .py and .ipynb)
 try:
@@ -212,4 +213,10 @@ print(classification_report(y_test, y_pred_tuned, target_names=['No Churn','Chur
 # ── STEP 12: Cross-Validation Score ─────────────────────────
 cv_scores = cross_val_score(best_dt, X, y, cv=10, scoring='accuracy')
 print(f'\n10-fold CV Accuracy: {cv_scores.mean():.4f} +/- {cv_scores.std():.4f}')
+
+# ── STEP 13: Export Model for Frontend Integration ──────────
+model_path = os.path.join(output_dir, 'decision_tree_model.pkl')
+joblib.dump(best_dt, model_path)
+print(f'\nModel successfully saved to {model_path} for Frontend Integration.')
+
 print("\nScript completed successfully.")
